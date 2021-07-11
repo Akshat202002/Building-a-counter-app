@@ -30,10 +30,10 @@ button{
 }
 
 #increment-btn {
-    background: darkred;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(220,29,253,1) 50%, rgba(252,176,69,1) 100%);
 }
 
 #save-btn {
-    background: darkgreen;
+   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,90,1) 100%);
 
 
