@@ -1,7 +1,13 @@
 let countEl = document.getElementById("count-el")
 let saveEl = document.getElementById("save-el")
-
 let count = 0
+
+function decrement() {
+    if(count > 0){
+    count -=1
+    countEl.innerText = count
+    }
+}
 
 function increment() {
     count +=1
@@ -13,4 +19,8 @@ function save(){
     saveEl.textContent += countStr
     countEl.innerText = 0
     count = 0
+}
+
+function clearEntry(){     
+    saveEl.textContent = "Previous entries: "
 }
