@@ -28,7 +28,11 @@ h2{
     grid-template-columns: 25px 200px 25px;
     grid-template-rows: 50px 50px ;  
     grid-gap: 2px;  
-    justify-content: center;   
+    justify-content: center; 
+}
+
+.clear{
+  grid-column: 1/4;
 }
 
 button{
@@ -49,18 +53,15 @@ button{
 
 #decrement-btn {
     color: white;
-    width: 25px;
 }
 
 #increment-btn {
-    color: white;
-    width: 25px;  
+    color: white; 
 }
 
 
 #clear-btn {
     color: white;
-    width: 254px; 
 }
 
 #save-el {
